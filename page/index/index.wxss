@@ -1,0 +1,18 @@
+page { 
+    background-color: rgb(0, 0, 0); height: 100%; position: relative; width: 100%; overflow: hidden;  
+}
+.hhhh{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.inputs1{
+    margin: 0;
+    padding: 8px 0;
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 8px;                /* 圆角边框 */
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}

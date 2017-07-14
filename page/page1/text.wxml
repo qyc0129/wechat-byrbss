@@ -1,0 +1,6 @@
+<!--text.wxml-->
+<text>text.wxml</text>
+<view>提示：{{text2}}</view>
+<view>{{text3}}</view>
+<view>{{text4}}</view>
+<view>{{text5}}</view>

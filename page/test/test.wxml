@@ -1,0 +1,6 @@
+<button type="primary" bindtap="cscs">收藏</button>
+<view>id:{{text3}}</view>
+<view>{{text4}}</view>
+<view>{{text5}}</view>
+
+

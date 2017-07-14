@@ -1,0 +1,19 @@
+<view>{{text1}}</view>
+<view>————————分界线————————</view>
+<view>{{text2}}</view>
+<view>————————分界线————————</view>
+<view>{{text3}}</view>
+
+
+<picker value="{{picker1Value}}" range="{{picker1Range}}" bindchange="normalPickerBindchange">
+    选择帖子：{{picker1Range[picker1Value]}}
+</picker><button type="primary" bindtap="ckck">查看帖子</button>
+<view>{{text4}}</view>
+<view>————————分界线————————</view>
+<view>{{text5}}</view>
+<view>————————分界线————————</view>
+<view>{{text6}}</view>
+<view>————————分界线————————</view>
+<view>{{text7}}</view>
+<view>{{text8}}</view>
+<view>{{text9}}</view>

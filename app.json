@@ -1,0 +1,24 @@
+{
+  "debug": true,
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#4d4d4d",
+    "navigationBarTitleText": "BYRSearch",
+    "backgroundColor": "#0d0d0d",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "pages": [
+    "page/index/index",
+    "page/page1/page1",
+    "page/test/test",
+    "page/page1/text",
+    "page/sc/sc"
+  ],
+  "networkTimeout": {
+    "connectSocket": "",
+    "request": "",
+    "downloadFile": "",
+    "uploadFile": ""
+  }
+}

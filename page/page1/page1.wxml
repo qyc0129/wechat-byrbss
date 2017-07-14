@@ -1,0 +1,30 @@
+<!--<view>提示：{{text2}}</view>
+<view>{{text3}}</view>
+<view>{{text4}}</view>
+<view>{{text5}}</view>-->
+
+<view class="table" style="font-size:8pt">
+  <view class="tr bg-w">
+    <view class="th">序号</view>
+    <view class="th">标题</view>
+    <view class="th ">链接</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td" bindtap="detail">{{item.type}}</view>
+     <!--<navigator url="/page1" hover-class="navigator-hover">{{item.type}}</navigator>-->
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+<body>
+ <view class="t" bindtap="nextp">下一页</view><view class="t"bindtap="befp">上一页</view></body>
+<picker value="{{picker1Value}}" range="{{picker1Range}}" bindchange="normalPickerBindchange">
+    选择帖子：{{picker1Range[picker1Value]}}
+</picker><button type="primary" bindtap="ckck">查看帖子</button>

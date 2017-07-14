@@ -1,0 +1,62 @@
+<view class="c-minheight wx-view_o7tkfz" data-c_e_id="wx_view_9835d26b">
+    <view bindtap="tap_cbfc8749" class="c-minheight wx-view_sI5oLy" data-c_act_id="M_b4874deb6979cd50" data-c_e_id="wx_view_1c708689">
+        <view class="c-minheight wx-view_6JmDZL" data-c_e_id="wx_view_69905323">
+            <view class="wx-view_OBVIUa" data-c_e_id="wx_view_5aca5d44">
+                <image class="wx-image_4dYeI7" data-c_e_id="wx_image_0122d5f9" mode="scaleToFill" src="{{userInfo.avatarUrl}}" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/9691dee74ea33a01f494c7e085956c8c_origin.jpg); "/>
+                <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_text_af908f70">{{userInfo.nickName}}</text>
+            </view>
+            <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator_c808d46d" hover-class="navigator-hover">
+                <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text_eaec4f40">❯</text>
+            </navigator>
+        </view>
+        <view class="c-minheight wx-view_1AzTCw" data-c_e_id="wx_view7c87fa00">
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_view8d02c62b">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewa34fb132">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_textfedab6bc" bindtap="shouc">我的收藏</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator4ba5c927" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_textd3e74c21">❯</text>
+                </navigator>
+            </view>
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_viewacdee448">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewfdc76ddf">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_textdd7fb8dc">关于我们</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigatorad28d729" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text82bf195a">❯</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <view class="wx-view_a4ST3v {{wx_view465aa220.class}}" data-c_e_id="wx_view465aa220">
+        <view class="c-minheight wx-view_5sIsYs" data-c_e_id="wx_view11b94666">
+            <view class="wx-view_d7uNfa" data-c_e_id="wx_view01bf2356">
+                <navigator bindtap="tap_120984e1" class="wx-navigator_OhKtFF" data-c_act_id="act_e6cbbb0d" data-c_e_id="wx_navigator7bc6abce" hover-class="navigator-hover">
+                    <image bindtap="tap_20b54177" class="wx-image_aZVWVN" data-c_e_id="wx_image181a0288" mode="aspectFit" src="http://qty83k.creatby.com/materials/origin/312b86f640c4c96694320b59b29a4f78_origin.png" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/312b86f640c4c96694320b59b29a4f78_origin.png); "/>
+                </navigator>
+                <text class="c-block wx-text_uAlZ5A" data-c_e_id="wx_texte529cd56"/>
+                <image class="wx-image_6SRp5A" data-c_e_id="wx_image1a30f8b9" mode="aspectFit" src="http://qty83k.creatby.com/materials/origin/dc4470fbd50c6f96c5847fa2ae475f2c_origin.png" style="background-size: contain; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/dc4470fbd50c6f96c5847fa2ae475f2c_origin.png); "/>
+            </view>
+            <text class="c-block wx-text_Lc4AK3" data-c_e_id="wx_text4e817473">⬆︎ </text>
+           <view style="width:80%; display:flex;">
+   </view>
+<!--<image class="hhhh" src="logo.png" />-->
+<view>
+ <input bindinput="userNameInput" class="inputs1"style="display:inline-block;;border: 0.5px solid;border-color: lightblue;width:80%;length:60%;" 
+   type="text" focus="false"  /> <image bindtap="btn_primary" class="wx-image_aZVWVN2" data-c_e_id="wx_image181a0288" mode="aspectFit" src="s.png" style="display:inline-block;"/></view>
+<!--<view>提示：{{text}}</view>--><button type="primary" bindtap="btn_primary" style="visibility:hidden">搜索一下</button><button type="primary" bindtap="btn_primary" style="visibility:hidden">搜索一下</button>
+            <!--<button type="primary" bindtap="btn_primary" src="logo.png">搜索一下</button>-->
+            
+             
+    <view style="width:80%; display:flex;">
+  <!--<view class="weui-cell__ft">
+                    <view class="weui-vcode-btn">获取验证码</view>
+                </view>-->
+ 
+</view>
+
+
+        </view>
+       
+    </view>
+</view>
