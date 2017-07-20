@@ -109,7 +109,7 @@ Page({
     })},
   btn_primary: function () {
     wx.navigateTo({
-      url: '../../page/page1/page1?id='+this.data.text,
+      url: '../../page/page1/page1?id='+this.data.text,     //获得搜索内容 跳转搜索
     })
     
   },
