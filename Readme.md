@@ -68,4 +68,6 @@
 
 刘叶：1471957118@qq.com
 <h2><strong>资料链接</strong></h2>
-<a href="http://www.w3school.com.cn/" target="_blank"><em>w3s</em>chool 在线教程</a>
+<a href="https://github.com/qyc0129/wechat-byrbss" target="_blank"><em>byrbbs-search</em>-on-GitHub</a>
+<a href="http://v.youku.com/v_show/id_XMjkwMzM1NDY4OA==.html" target="_blank"><em>byrbbs-search</em>-优酷视频</a>
+
