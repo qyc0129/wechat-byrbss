@@ -9,11 +9,11 @@
     "backgroundTextStyle": "dark"
   },
   "pages": [
-    "page/index/index",
-    "page/page1/page1",
-    "page/test/test",
-    "page/page1/text",
-    "page/sc/sc"
+    "page/index/index",       //默认起始页
+    "page/page1/page1",       //结果现实页
+    "page/test/test",       //具体帖子显示页
+    "page/page1/text",       //测试页
+    "page/sc/sc"       //收藏页
   ],
   "networkTimeout": {
     "connectSocket": "",
